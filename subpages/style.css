@@ -1,0 +1,118 @@
+/* BODY */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+.sectionintro h1 {
+    text-align: center;
+}
+
+.sectionintro p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.undecided {
+    color: red;
+}
+
+.confirmed {
+    color: limegreen
+}
+
+.modentry {
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    outline: .2rem inset rgb(238, 0, 255);
+
+    color: aliceblue;
+    background-color: rgb(47, 28, 44);
+}
+
+.modentry h2, div, img, a {
+    text-align: center;
+}
+.modentry h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+} 
+
+.modentry div  {
+    color: gray;
+    font-style: italic;
+}
+
+.modentry p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: left;
+}
+
+@media only screen and (max-width:1200px) {
+    html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    background-color: aliceblue;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8px;
+    background-color: aliceblue;
+    }
+
+    .modentry {
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    }
+
+}
+
+@media only screen and (max-width:300px) {
+    html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6px;
+    background-color: aliceblue;
+    }
+
+    .modentry {
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    }
+
+}
