@@ -109,11 +109,12 @@ html, body {
     }
 
     .modentry {
-    padding: 1rem;
-    margin: 2rem;
+    padding: .5rem;
+    margin: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
     }
 
 
 }
+
