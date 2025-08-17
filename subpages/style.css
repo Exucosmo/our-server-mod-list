@@ -32,6 +32,10 @@ html, body {
     color: limegreen
 }
 
+.separatorline {
+    margin: 2rem;
+}
+
 .modentry {
     padding: 1rem;
     margin: 2rem;
@@ -60,6 +64,13 @@ html, body {
     padding-left: 4rem;
     padding-right: 4rem;
     text-align: left;
+}
+
+.descriptionimage {
+    margin: 2rem;
+    align-self: center;
+    height: 90%;
+    width: 90%;
 }
 
 @media only screen and (max-width:1200px) {
