@@ -45,25 +45,25 @@ html, body {
 
 /* --- LINK STATES --- */
 
-.link a:link {
+a:link {
   color: rgb(0, 150, 200);
   background-color: transparent;
   text-decoration: underline;
 }
 
-.link a:visited {
+a:visited {
   color: rgb(0, 150, 200);
   background-color: transparent;
   text-decoration: underline;
 }
 
-.link a:hover {
+a:hover {
   color: rgb(0, 100, 100);
   background-color: transparent;
   text-decoration: none;
 }
 
-.link a:active {
+a:active {
   color: rgb(0, 150, 200);
   background-color: transparent;
   text-decoration: none;
